@@ -1,0 +1,94 @@
+body {
+  font-family: Inter, sans-serif;
+}
+
+.full-height-section {
+  height: 100dvh;
+}
+
+.odd-section {
+  background-color: #282a36;
+}
+
+.even-section {
+  background-color: #44475a;
+}
+
+header > div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+}
+
+header > div > div > h1 {
+  font-size: 3rem;
+  color: #f8f8f2;
+  font-weight: 900;
+}
+
+header > div > div > p {
+  font-size: 1.25rem;
+  color: #f8f8f2;
+  font-weight: 600;
+}
+
+#logo {
+  margin: 4rem auto 0;
+}
+
+.full-width-input {
+  width: 100%;
+  height: 50px;
+  color: #f8f8f2;
+  background-color: #44475a;
+  border: 2px solid #44475a;
+  padding: 0 16px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.full-width-button {
+  width: 100%;
+  height: 50px;
+  color: #44475a;
+  background-color: #50fa7b;
+  border: 2px solid #50fa7b;
+  padding: 0 16px;
+  border-radius: 4px;
+  transition: all 0.2s;
+  outline: none;
+  font-weight: 600;
+}
+
+.full-width-input:focus, .full-width-button:focus {
+  border: 2px solid #f8f8f2;
+}
+
+.full-width-button:hover {
+  filter: brightness(0.8);
+}
+
+#budget-form {
+  margin-top: 3rem;
+}
+
+#customers {
+  margin-bottom: 2rem;
+}
+
+#customers > div + div {
+  position: relative;
+}
+
+#customers > div + div::before {
+  content: '\00B7';
+  color: #44475a;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(0, 8px);
+}
