@@ -1,5 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Inter, sans-serif;
+  color: #f8f8f2;
+}
+
+.como-funciona > ul > li + li {
+  margin-top: 8px;
+}
+
+.nossas-fotos > img + img {
+  margin-left: 16px;
+}
+
+.nossas-fotos {
+  margin-top: 32px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
 }
 
 .full-height-section {
@@ -45,6 +69,17 @@ header > div > div > p {
   color: #f8f8f2;
   background-color: #44475a;
   border: 2px solid #44475a;
+  padding: 0 16px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.full-width-input-darker {
+  width: 100%;
+  height: 50px;
+  color: #f8f8f2;
+  background-color: #282a36;
+  border: 2px solid #282a36;
   padding: 0 16px;
   border-radius: 4px;
   outline: none;
