@@ -20,6 +20,10 @@ body {
   margin-top: 8px;
 }
 
+.nossas-fotos > img {
+  border-radius: 50%;
+}
+
 .nossas-fotos > img + img {
   margin-left: 16px;
 }
