@@ -132,6 +132,18 @@ header > div > div > p {
   transform: translate(0, 8px);
 }
 
+@media (max-width: 992px) {
+  #customers > div:nth-child(3)::before {
+    content: '';
+  }
+}
+
+@media (max-width: 768px) {
+  #customers > div + div::before {
+    content: '';
+  }
+}
+
 #traits {
   display: flex;
   flex-direction: column;
@@ -144,7 +156,6 @@ header > div > div > p {
   display: flex;
   align-items: start;
   gap: 32px;
-  margin: 0 2rem;
 }
 
 #traits h5 {
